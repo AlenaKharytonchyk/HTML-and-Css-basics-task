@@ -1,0 +1,296 @@
+.pc-tab > input,
+.pc-tab section > div {
+    display: none;
+}
+
+#tab-edu:checked ~ section .tab-edu,
+#tab-skills:checked ~ section .tab-skills,
+#tab-progects:checked ~ section .tab-progects,
+#tab-ba:checked ~ section .tab-ba,
+#tab-feedback:checked ~ section .tab-feedback {
+    display: block;
+}
+#tab-edu:checked ~ nav .tab-edu,
+#tab-skills:checked ~ nav .tab-skills,
+#tab-progects:checked ~ nav .tab-progects,
+#tab-ba:checked ~ nav .tab-ba,
+#tab-feedback:checked ~ nav .tab-feedback {
+    color: red;
+}
+
+body {
+    background:  #55675e;
+    font: normal 16px/1 "Trebuchet MS", Helvetica, sans-serif;
+    margin-top: 4em;
+
+}
+
+.checked {
+    color: orange;
+}
+.card {  
+    box-sizing: content-box;
+    margin: 10px auto;
+    overflow: hidden;
+    border-radius: 4px;
+    color:#fff;
+    text-align: left;
+    text-overflow: ellipsis;
+    background-position: 50% 50%;
+    background-origin: padding-box;
+    background-clip: border-box;
+    background-size: auto auto;
+    width: 85%;
+    max-width: 1000px;
+    min-width: 680px;
+}
+
+a {
+    color: #fff;
+}
+
+.socmedia li {
+    display: inline;
+    font-size: 2em;
+    margin-right: 10px;
+}
+.socmedia i:hover {
+    text-shadow: 0 0 9px #fff ;
+}
+header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 2px;
+    box-shadow: 1px 0 20px 0 rgba(0,0,0,0.3);
+    background-color: #489e73;
+    overflow: hidden;
+}
+.prev-job {
+    opacity: 0.5;
+}
+.text-info {
+    padding: 0 20px;
+}
+header ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+.contact-info li {
+    margin-bottom: 5px;
+    justify-content: baseline;
+    color: #fff;
+}
+.contact-info i {
+    color: #fff;
+    width: 20px;
+}
+.pc-tab nav ul li{
+    display: inline;
+}
+header ul li i {
+    margin-right: 5px;
+}
+#tab-edu:checked ~ nav .tab-edu label,
+#tab-skills:checked ~ nav .tab-skills label,
+#tab-progects:checked ~ nav .tab-progects label,
+#tab-ba:checked ~ nav .tab-ba label,
+#tab-feedback:checked ~ nav .tab-feedback label {
+  background: #f2f6f7;
+  color: #716c6c;
+  position: relative;
+}
+
+.pc-tab ul li label {
+    box-sizing: content-box;
+    position: relative;
+    top: 0;
+    float: left;
+    padding: 15px 22px;
+    border-top: none;
+    text-align: center;
+    text-transform: uppercase;
+    text-overflow: clip;
+    background: #507b66;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 5px;
+
+}
+.pc-tab ul li label:hover{
+    background: #365445;
+}
+.pc-tab ul li label:active{
+    background: #2f7955;
+}
+
+.pc-tab section {
+    clear: both;
+}
+
+.pc-tab section > div {
+    padding: 20px; 
+    background: #f2f6f7;
+    line-height: 1.5em;
+    letter-spacing: 0.3px;
+    color: #716c6c;
+}
+.pc-tab .main-inf input {
+    display: none;
+}
+.pc-tab {
+    margin-top: 20px;
+}
+.pc-tab ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.grid-item {
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+  font-size: 16px;
+  text-align: left;
+}
+.data {
+    font-weight: 700;
+}
+.avatar {
+    width: 245px;
+    margin: 0 0 0 auto;
+    background-image: url('../img/alena_foto.jpg');
+    background-size: 410px;
+    background-position-x: -63px;
+}
+.grid-ba {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr;
+    grid-auto-rows: repeat(2, 1fr);
+    font-size: 18px;
+}
+.grid-item:nth-last-child(-n+2) {
+    border-bottom: none;
+  }
+div .grid-item-ba li {
+    list-style: circle;
+    
+}
+
+.grid-item-ba {
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+  font-size: 16px;
+  text-align: left;
+}
+.grid-item-ba:nth-last-child(-n+3) {
+    border-bottom: none;
+  }
+img {
+    width: 145%;
+}
+button {
+    display: inline-block;
+    box-sizing: content-box;
+    position: relative;
+    cursor: pointer;
+    margin: 10px 0 0;
+    padding: 22px 22px;
+    border: 4px solid #fff;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    text-overflow: clip;
+    background: #507b66;
+    }
+    
+button:hover {
+    background: #365445;
+    }
+    
+button:active {
+background: #2f7955;
+}
+
+form input[type='text']{
+    appearance:none;
+    border: none;
+    border-bottom: 1.5px solid #ccc;
+    cursor: pointer;
+    padding: 5px;
+    display: block;
+    position: relative;
+    padding-left: 0.5em;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    
+    
+}
+.feedback-text {
+    font-size: 16px;
+    font-weight: 700;
+}
+footer {
+    margin: 0 auto;
+    font-size: 14px;
+    color: #CCC;
+    text-align: center; 
+  }
+ 
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+  }
+
+.container input {
+position: absolute;
+opacity: 0;
+}
+
+
+.checkmark {
+position: absolute;
+top: 0;
+left: 0;
+height: 25px;
+width: 25px;
+background-color: #d4caca;
+border-radius: 50%;
+}
+
+
+.container:hover input ~ .checkmark {
+background-color: #ccc;
+}
+
+.container input:checked ~ .checkmark {
+background-color: #507b66;
+}
+
+
+.checkmark:after {
+content: "";
+position: absolute;
+display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+display: block;
+}
+
+.container .checkmark:after {
+top: 9px;
+left: 9px;
+width: 8px;
+height: 8px;
+border-radius: 50%;
+background: #fff;
+}
+
+
