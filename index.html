@@ -2,6 +2,13 @@
 <html>
 
 <head>
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav-icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav-icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav-icon/favicon-16x16.png">
+    <link rel="manifest" href="./fav-icon/site.webmanifest">
+    <link rel="mask-icon" href="./fav-icon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite"
@@ -46,14 +53,14 @@
         <div class="main-inf pc-tab card">
             <input checked="checked" id="tab-edu" type="radio" name="tab" />
             <input id="tab-skills" type="radio" name="tab" />
-            <input id="tab-progects" type="radio" name="tab" />
+            <input id="tab-projects" type="radio" name="tab" />
             <input id="tab-ba" type="radio" name="tab" />
             <input id="tab-feedback" type="radio" name="tab" />
             <nav>
                 <ul>
                     <li class="tab-edu"><label for="tab-edu">Education</label></li>
                     <li class="tab-skills"><label for="tab-skills">Skills</label></li>
-                    <li class="tab-progects"><label for="tab-progects">Progects</label></li>
+                    <li class="tab-projects"><label for="tab-projects">Projects</label></li>
                     <li class="tab-ba"><label for="tab-ba">Background</label></li>
                     <li class="tab-feedback"><label for="tab-feedback">Feedback Form</label></li>
                 </ul>
@@ -172,8 +179,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="tab-progects">
-                    <p>No progects yeat</p>
+                <div class="tab-projects">
+                    <p>No projects yet</p>
                 </div>
                 <div class="tab-ba">
                     <div class="grid-ba">
@@ -203,7 +210,7 @@
                                     <b>Consultant</b><br></div>
                                 <div class="grid-item-ba">
                                 <ul><b>Responsibilities:</b>
-                                    <li>Advising clients about the services of the company</li>
+                                    <li>Advising clients on the services of the company</li>
                                 </ul>
                                 </div>
 
@@ -213,12 +220,12 @@
                 <div class="tab-feedback">
                     <form method="post" enctype="text/plain" action="mailto:alena.kharytonchyk@outlook.com">
                         <p class="feedback-text"><label for="firstname">First name:</label></p>
-                        <input type="text" name="firstname">
+                        <input type="text" name="firstname" required>
                         <p class="feedback-text"><label for="lastname">Last name:</label></p>
-                        <input type="text" name="lastname">
+                        <input type="text" name="lastname" required>
                          <p class="feedback-text"> Do you like the page?</p>
                         <label class="container">
-                        <input type="radio" value="yes" name="selection">Yes
+                        <input type="radio" value="yes" name="selection" required>Yes
                         <span class="checkmark"></span></label>
                         <label class="container">
                         <input type="radio" value="mostly" name="selection"> Mostly
@@ -229,7 +236,7 @@
                         
                         <p class="feedback-text">Will you give me a chance as a front-end developer?</p>
                         <label class="container">
-                        <input type="radio" value="yes" name="chance"> Yes
+                        <input type="radio" value="yes" name="chance"required> Yes
                         <span class="checkmark"></span></label>
                         <label class="container">
                         <input type="radio" value="not sure" name="chance"> Not sure
@@ -239,7 +246,7 @@
                         <span class="checkmark"></span></label>
                         <p></p>
                         
-                        <button type="submit">For some questions mail me</button>
+                        <button type="submit">For any questions email me</button>
                     </form>
                 </div>
             </section>

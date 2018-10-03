@@ -5,14 +5,14 @@
 
 #tab-edu:checked ~ section .tab-edu,
 #tab-skills:checked ~ section .tab-skills,
-#tab-progects:checked ~ section .tab-progects,
+#tab-projects:checked ~ section .tab-projects,
 #tab-ba:checked ~ section .tab-ba,
 #tab-feedback:checked ~ section .tab-feedback {
     display: block;
 }
 #tab-edu:checked ~ nav .tab-edu,
 #tab-skills:checked ~ nav .tab-skills,
-#tab-progects:checked ~ nav .tab-progects,
+#tab-projects:checked ~ nav .tab-projects,
 #tab-ba:checked ~ nav .tab-ba,
 #tab-feedback:checked ~ nav .tab-feedback {
     color: red;
@@ -92,7 +92,7 @@ header ul li i {
 }
 #tab-edu:checked ~ nav .tab-edu label,
 #tab-skills:checked ~ nav .tab-skills label,
-#tab-progects:checked ~ nav .tab-progects label,
+#tab-projects:checked ~ nav .tab-projects label,
 #tab-ba:checked ~ nav .tab-ba label,
 #tab-feedback:checked ~ nav .tab-feedback label {
   background: #f2f6f7;
